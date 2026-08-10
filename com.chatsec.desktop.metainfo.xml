@@ -22,7 +22,7 @@
   </description>
 
   <launchable type="desktop-id">
-    com.chatsec.desktop.desktop
+    com.chatsec.desktop
   </launchable>
 
   <provides>
