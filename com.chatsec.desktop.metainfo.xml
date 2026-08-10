@@ -10,6 +10,11 @@
 
   <icon type="stock">com.chatsec.desktop</icon>
 
+  <categories>
+    <category>Network</category>
+    <category>InstantMessaging</category>
+  </categories>
+
   <description>
     <p>
       ChatSec is a privacy-focused messenger.
