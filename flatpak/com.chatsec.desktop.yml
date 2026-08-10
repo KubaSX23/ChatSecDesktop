@@ -15,9 +15,10 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p /app/chatsec
-      - cp -r * /app/chatsec/
+      - cp -r dist connection_error.html /app/chatsec/
       - install -Dm755 chatsec.sh /app/bin/chatsec
-      - install -Dm644 com.chatsec.desktop.desktop /app/share/applications/com.chatsec.desktop.desktop
+      - install -Dm644 com.chatsec.desktop /app/share/applications/com.chatsec.desktop.desktop
+      - install -Dm644 com.chatsec.desktop.metainfo.xml /app/share/metainfo/com.chatsec.desktop.metainfo.xml
       - install -Dm644 icon/512x512.png /app/share/icons/hicolor/512x512/apps/com.chatsec.desktop.png
     sources:
       - type: dir
