@@ -12,12 +12,11 @@
     "build": "electron-builder"
   },
   "build": {
-    "appId": "pl.chatsec.desktop",
+    "appId": "com.chatsec.desktop",
     "productName": "ChatSec",
     "linux": {
       "target": [
-        "AppImage",
-        "deb"
+        "dir"
       ],
       "category": "Network",
       "maintainer": "ChatSec"
