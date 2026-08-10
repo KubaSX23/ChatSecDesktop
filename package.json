@@ -1,0 +1,30 @@
+{
+  "name": "chatsecdesktop",
+  "version": "1.0.0",
+  "description": "ChatSec Desktop Application",
+  "main": "main.js",
+  "author": {
+    "name": "ChatSec"
+  },
+  "homepage": "https://chatsec.pl",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "pl.chatsec.desktop",
+    "productName": "ChatSec",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Network",
+      "maintainer": "ChatSec"
+    }
+  },
+  "devDependencies": {
+    "electron": "^43.3.0",
+    "electron-builder": "^26.15.3"
+  }
+}
