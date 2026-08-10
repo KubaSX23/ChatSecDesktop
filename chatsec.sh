@@ -1,2 +1,2 @@
-#!/bin/sh
-exec /app/chatsec/dist/linux-unpacked/chatsecdesktop --no-sandbox "$@"
+#!/usr/bin/env bash
+exec zypak-wrapper /app/chatsec/chatsecdesktop "$@"
